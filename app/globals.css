@@ -1,26 +1,32 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/*
+ * ============================================
+ * ACCENT COLORS — change these to retheme the site
+ * Just update the hex values below in @theme inline.
+ * ============================================
+ */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-accent-light: #eff6ff;     /* light tinted backgrounds (sections) */
+  --color-accent-border: #bfdbfe;    /* card borders */
+  --color-accent: #2563eb;           /* primary accent (buttons, numbers, highlights) */
+  --color-accent-hover: #1d4ed8;     /* button hover state */
+  --color-accent-btn-text: #1d4ed8;  /* text on light buttons (hero CTA) */
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-500: #64748b;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+  --color-white: #ffffff;
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
