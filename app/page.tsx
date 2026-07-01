@@ -23,7 +23,7 @@ export default function Home() {
               <div>                                                                                                                         
                   <div className="text-4xl font-bold text-accent">1</div>
                   <h3 className="mt-3 text-xl font-semibold text-slate-800">Book</h3>
-                  <p className="mt-2 text-slate-600">Pick a Saturday that works for you and schedule your cleaning.</p>
+                  <p className="mt-2 text-slate-600">Pick a Saturday that works for you, and send me your address.</p>
               </div>
               <div>
                   <div className="text-4xl font-bold text-accent">2</div>
