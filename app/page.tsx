@@ -71,12 +71,12 @@ export default function Home() {
             <section id="book" className="py-20 px-6 bg-accent-light">
                 <div className="max-w-2xl mx-auto text-center">
                     <h2 className="text-3xl font-bold text-slate-900">Book Now</h2>
-                    <p className="mt-6 text-lg text-slate-600">Online booking is coming soon! In the meantime, reach out to schedule your bin cleaning.</p>
+                    <p className="mt-6 text-lg text-slate-600">Text us your address and preferred Saturday, and we'll take care of the rest!</p>
                     <div className="mt-8 bg-white rounded-2xl shadow-sm border border-accent-border p-8">
                         <p className="text-slate-700 font-medium">Call or text me to book:</p>
                         <a href="tel:+17026378989" className="mt-2 block text-2xl font-bold text-accent hover:underline">(702) 637-8989</a>
                         <a
-                            href="sms:+17026378989?body=Hi%2C%20I%27d%20like%20to%20book%20a%20bin%20cleaning!"
+                            href="sms:+17026378989?body=Hi%2C%20I%27d%20like%20to%20book%20a%20bin%20cleaning!%0A%0AAddress%3A%20%0APreferred%20Saturday%3A%20"
                             className="mt-6 inline-block bg-accent text-white font-semibold px-8 py-3 rounded-full text-lg hover:bg-accent-hover transition-colors"
                         >
                             Text Me to Book
