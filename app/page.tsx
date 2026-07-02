@@ -36,7 +36,7 @@ export default function Home() {
                         <div className="flex flex-col items-center">
                             <div className="relative">
                                 <div className="w-16 h-16 flex items-center justify-center">
-                                    <Image src="/icon-calendar.png" alt="Calendar icon" width={50} height={50} className="object-contain" />
+                                    <Image src="/icon-calendar.png" alt="Calendar icon" width={50} height={50} className="object-contain" style={{height: "auto"}} />
                                 </div>
                                 <div className="absolute -top-1 -left-1 w-8 h-8 rounded-full bg-accent text-white text-sm font-extrabold flex items-center justify-center">1</div>
                             </div>
@@ -46,7 +46,7 @@ export default function Home() {
                         <div className="flex flex-col items-center">
                             <div className="relative">
                                 <div className="w-16 h-16 flex items-center justify-center">
-                                    <Image src="/icon-dirty-bin.png" alt="Dirty bin icon" width={62} height={62} className="object-contain" />
+                                    <Image src="/icon-dirty-bin.png" alt="Dirty bin icon" width={62} height={62} className="object-contain" style={{height: "auto"}} />
                                 </div>
                                 <div className="absolute -top-1 -left-1 w-8 h-8 rounded-full bg-accent text-white text-sm font-extrabold flex items-center justify-center">2</div>
                             </div>
@@ -56,7 +56,7 @@ export default function Home() {
                         <div className="flex flex-col items-center">
                             <div className="relative">
                                 <div className="w-16 h-16 flex items-center justify-center">
-                                    <Image src="/icon-clean-bin.png" alt="Clean bin icon" width={58} height={58} className="object-contain" />
+                                    <Image src="/icon-clean-bin.png" alt="Clean bin icon" width={58} height={58} className="object-contain" style={{height: "auto"}} />
                                 </div>
                                 <div className="absolute -top-1 -left-1 w-8 h-8 rounded-full bg-accent text-white text-sm font-extrabold flex items-center justify-center">3</div>
                             </div>
