@@ -36,7 +36,8 @@ export default function Home() {
                         <div className="flex flex-col items-center">
                             <div className="relative">
                                 <div className="w-24 h-24 flex items-center justify-center">
-                                    <Image src="/icon-calendar.png" alt="Calendar icon" width={50} height={50} className="object-contain" unoptimized />
+                                    {/* Adjust width/height to resize this icon */}
+                                    <Image src="/icon-calendar.png" alt="Calendar icon" width={70} height={70} style={{width: "auto", height: "auto"}} className="max-w-[70px] max-h-[70px]" unoptimized />
                                 </div>
                                 <div className="absolute top-2 left-2 w-8 h-8 rounded-full bg-accent text-white text-sm font-extrabold flex items-center justify-center">1</div>
                             </div>
@@ -46,7 +47,8 @@ export default function Home() {
                         <div className="flex flex-col items-center">
                             <div className="relative">
                                 <div className="w-24 h-24 flex items-center justify-center">
-                                    <Image src="/icon-dirty-bin.png" alt="Dirty bin icon" width={72} height={72} className="object-contain" unoptimized />
+                                    {/* Adjust width/height to resize this icon */}
+                                    <Image src="/icon-dirty-bin.png" alt="Dirty bin icon" width={80} height={80} style={{width: "auto", height: "auto"}} className="max-w-[80px] max-h-[80px]" unoptimized />
                                 </div>
                                 <div className="absolute top-2 left-2top-2 left-2 w-8 h-8 rounded-full bg-accent text-white text-sm font-extrabold flex items-center justify-center">2</div>
                             </div>
@@ -56,7 +58,8 @@ export default function Home() {
                         <div className="flex flex-col items-center">
                             <div className="relative">
                                 <div className="w-24 h-24 flex items-center justify-center">
-                                    <Image src="/icon-clean-bin.png" alt="Clean bin icon" width={80} height={80} className="object-contain" unoptimized />
+                                    {/* Adjust width/height to resize this icon */}
+                                    <Image src="/icon-clean-bin.png" alt="Clean bin icon" width={80} height={80} style={{width: "auto", height: "auto"}} className="max-w-[88px] max-h-[88px]" unoptimized />
                                 </div>
                                 <div className="absolute top-2 left-2 w-8 h-8 rounded-full bg-accent text-white text-sm font-extrabold flex items-center justify-center">3</div>
                             </div>
@@ -124,14 +127,13 @@ export default function Home() {
             </section>
 
             {/* About */}
-            <section className="py-20 px-6 bg-white">
-                <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-3xl font-extrabold text-slate-900 uppercase tracking-wide after:content-[''] after:block after:w-16 after:h-1 after:bg-accent after:rounded-full after:mx-auto after:mt-3">About</h2>
-                    <p className="mt-6 text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto"> <span className="font-bold">Smelly bins?</span> Let a local kid entrepreneur do the dirty work! At Sparkle Bins, I blast away the grime and odor so you don't have to. Enjoy a cleaner, fresher home, one bin at a time.</p>
-                    <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        <Image src="/keiran1.jpg" alt="Keiran cleaning a trash bin" width={500} height={400} className="rounded-xl object-cover w-full h-72 sm:h-80" />
-                        <Image src="/keiran2.jpg" alt="Keiran cleaning a trash bin" width={500} height={400} className="rounded-xl object-cover w-full h-72 sm:h-80" />
-                    </div>
+            <section className="relative py-32 px-6 bg-cover bg-center" style={{backgroundImage: "url('/keiran1.jpg')"}}>
+                <div className="absolute inset-0 bg-slate-900/70" />
+                <div className="relative max-w-3xl mx-auto text-center">
+                    <h2 className="text-3xl font-extrabold text-white uppercase tracking-wide after:content-[''] after:block after:w-16 after:h-1 after:bg-accent after:rounded-full after:mx-auto after:mt-3">About</h2>
+                    <h3 className="mt-8 text-2xl font-bold text-white">Meet Keiran</h3>
+                    <p className="mt-4 text-lg text-white/90 leading-relaxed"><span className="font-bold">Smelly bins?</span> Let a local kid entrepreneur do the dirty work! At Sparkle Bins, I blast away the grime and odor so you don&apos;t have to. Enjoy a cleaner, fresher home, one bin at a time.</p>
+                    <Image src="/keiran2.jpg" alt="Keiran cleaning a trash bin" width={500} height={300} className="mt-10 rounded-xl object-cover w-full h-56 sm:h-64 shadow-lg mx-auto max-w-md" />
                 </div>
             </section>
 
