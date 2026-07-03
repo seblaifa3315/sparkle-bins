@@ -35,30 +35,30 @@ export default function Home() {
                     <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-10">
                         <div className="flex flex-col items-center">
                             <div className="relative">
-                                <div className="w-16 h-16 flex items-center justify-center">
-                                    <Image src="/icon-calendar.png" alt="Calendar icon" width={50} height={50} className="object-contain" style={{height: "auto"}} />
+                                <div className="w-24 h-24 flex items-center justify-center">
+                                    <Image src="/icon-calendar.png" alt="Calendar icon" width={50} height={50} className="object-contain" unoptimized />
                                 </div>
-                                <div className="absolute -top-1 -left-1 w-8 h-8 rounded-full bg-accent text-white text-sm font-extrabold flex items-center justify-center">1</div>
+                                <div className="absolute top-2 left-2 w-8 h-8 rounded-full bg-accent text-white text-sm font-extrabold flex items-center justify-center">1</div>
                             </div>
                             <h3 className="mt-3 text-xl font-semibold text-slate-800">Book</h3>
                             <p className="mt-2 text-slate-600">Pick a Saturday that works for you, and send me your address.</p>
                         </div>
                         <div className="flex flex-col items-center">
                             <div className="relative">
-                                <div className="w-16 h-16 flex items-center justify-center">
-                                    <Image src="/icon-dirty-bin.png" alt="Dirty bin icon" width={62} height={62} className="object-contain" style={{height: "auto"}} />
+                                <div className="w-24 h-24 flex items-center justify-center">
+                                    <Image src="/icon-dirty-bin.png" alt="Dirty bin icon" width={72} height={72} className="object-contain" unoptimized />
                                 </div>
-                                <div className="absolute -top-1 -left-1 w-8 h-8 rounded-full bg-accent text-white text-sm font-extrabold flex items-center justify-center">2</div>
+                                <div className="absolute top-2 left-2top-2 left-2 w-8 h-8 rounded-full bg-accent text-white text-sm font-extrabold flex items-center justify-center">2</div>
                             </div>
                             <h3 className="mt-3 text-xl font-semibold text-slate-800">I Collect & Clean</h3>
                             <p className="mt-2 text-slate-600">After Republic Services empties your bins, I pick them up from your house, and scrub them spotless.</p>
                         </div>
                         <div className="flex flex-col items-center">
                             <div className="relative">
-                                <div className="w-16 h-16 flex items-center justify-center">
-                                    <Image src="/icon-clean-bin.png" alt="Clean bin icon" width={58} height={58} className="object-contain" style={{height: "auto"}} />
+                                <div className="w-24 h-24 flex items-center justify-center">
+                                    <Image src="/icon-clean-bin.png" alt="Clean bin icon" width={80} height={80} className="object-contain" unoptimized />
                                 </div>
-                                <div className="absolute -top-1 -left-1 w-8 h-8 rounded-full bg-accent text-white text-sm font-extrabold flex items-center justify-center">3</div>
+                                <div className="absolute top-2 left-2 w-8 h-8 rounded-full bg-accent text-white text-sm font-extrabold flex items-center justify-center">3</div>
                             </div>
                             <h3 className="mt-3 text-xl font-semibold text-slate-800">Returned Fresh</h3>
                             <p className="mt-2 text-slate-600">I bring your bins back clean, fresh-smelling, and ready to go — no effort on your end.</p>
