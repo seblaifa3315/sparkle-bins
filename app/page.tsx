@@ -20,7 +20,7 @@ export default function Home() {
                         {/* Gradient text */}
                         <span className="relative bg-clip-text text-transparent drop-shadow-lg" style={{backgroundImage: "linear-gradient(to bottom, white 0%, white 55%, #38bdf8 65%, #38bdf8 100%)"}}>SPARKLE BINS</span>
                     </h1>
-                    <p className="mt-4 text-xl sm:text-2xl text-white drop-shadow">Professional Bin Cleaning Services</p>
+                    <p className="mt-4 text-xl sm:text-2xl text-white drop-shadow">Skyline Ridge&apos;s Bin Cleaning Service</p>
                     <p className="mt-2 text-lg sm:text-xl text-white drop-shadow">Say Goodbye to Foul Smells!</p>
                     <a href="#book" className="mt-8 inline-block bg-accent text-white font-semibold px-8 py-3 rounded-full text-lg hover:bg-accent-hover transition-colors">
                         Book Now
@@ -137,17 +137,24 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* Contact / Book Now Placeholder */}
+            {/* Contact / Book Now */}
             <section id="book" className="py-20 px-6 bg-accent-light">
                 <div className="max-w-2xl mx-auto text-center">
                     <h2 className="text-3xl font-extrabold text-slate-900 uppercase tracking-wide after:content-[''] after:block after:w-16 after:h-1 after:bg-accent after:rounded-full after:mx-auto after:mt-3">Book Now</h2>
-                    <p className="mt-6 text-lg text-slate-600">Text us your address and preferred Saturday, and we'll take care of the rest!</p>
-                    <div className="mt-8 bg-white rounded-2xl shadow-sm border border-accent-border p-8">
-                        <p className="text-slate-700 font-medium">Call or text me to book:</p>
-                        <a href="tel:+17026378989" className="mt-2 block text-2xl font-bold text-accent hover:underline">(702) 637-8989</a>
+                    <div className="mt-16 bg-white rounded-2xl shadow-lg border border-accent-border p-8 sm:p-10">
+                        {/* Avatar */}
+                        <div className="w-20 h-20 rounded-full overflow-hidden ring-4 ring-accent/20 shadow-md mx-auto -mt-20">
+                            <Image src="/avatar.jpg" alt="Keiran" width={100} height={100} className="object-cover w-full h-full" />
+                        </div>
+                        {/* Personal message */}
+                        <p className="mt-5 text-lg text-slate-700 leading-relaxed">Ready for clean bins? Just text me your <span className="font-bold">address</span> and your <span className="font-bold">preferred Saturday</span> — I&apos;ll get you on the schedule!</p>
+                        {/* Phone number */}
+                        <a href="tel:+17026378989" className="mt-6 block text-3xl font-extrabold text-accent hover:underline">(702) 637-8989</a>
+                        <p className="mt-1 text-sm text-slate-400">Call or text</p>
+                        {/* SMS button */}
                         <a
                             href="sms:+17026378989?body=Hi%2C%20I%27d%20like%20to%20book%20a%20bin%20cleaning!%0A%0AAddress%3A%20%0APreferred%20Saturday%3A%20"
-                            className="mt-6 inline-block bg-accent text-white font-semibold px-8 py-3 rounded-full text-lg hover:bg-accent-hover transition-colors"
+                            className="mt-6 inline-block bg-accent text-white font-semibold px-8 py-3 rounded-full text-lg hover:bg-accent-hover transition-colors shadow-md"
                         >
                             Text Me to Book
                         </a>
@@ -159,7 +166,7 @@ export default function Home() {
             <footer className="bg-slate-900 text-slate-400 py-8 px-6 text-center">
                 <div className="max-w-4xl mx-auto">
                     <p className="font-semibold text-white text-lg">Sparkle Bins</p>
-                    <p className="mt-2 text-sm">Your neighborhood bin cleaning service.</p>
+                    <p className="mt-2 text-sm">Skyline Ridge&apos;s bin cleaning service.</p>
                     <p className="mt-4 text-xs">&copy; {new Date().getFullYear()} Sparkle Bins. All rights reserved.</p>
                 </div>
             </footer>
