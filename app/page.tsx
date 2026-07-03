@@ -132,7 +132,7 @@ export default function Home() {
                 <div className="relative max-w-3xl mx-auto text-center">
                     <h2 className="text-3xl font-extrabold text-white uppercase tracking-wide after:content-[''] after:block after:w-16 after:h-1 after:bg-accent after:rounded-full after:mx-auto after:mt-3">About</h2>
                     <h3 className="mt-8 text-2xl font-bold text-white">Meet Keiran</h3>
-                    <p className="mt-4 text-lg text-white/90 leading-relaxed"><span className="font-bold">Smelly bins?</span> Let a local kid entrepreneur do the dirty work! At Sparkle Bins, I blast away the grime and odor so you don&apos;t have to. Enjoy a cleaner, fresher home, one bin at a time.</p>
+                    <p className="mt-4 text-lg text-white/90 leading-relaxed">Hi, I&apos;m Keiran — a kid entrepreneur right here in <span className="font-bold">Skyline Ridge</span>. I started Sparkle Bins to help my neighbors keep their trash bins fresh and clean. Every Saturday, I pick up your bins, scrub away the grime and odor, and bring them back spotless. No more stinky bins sitting in your driveway!</p>
                     <Image src="/keiran2.jpg" alt="Keiran cleaning a trash bin" width={500} height={300} className="mt-10 rounded-xl object-cover w-full h-56 sm:h-64 shadow-lg mx-auto max-w-md" />
                 </div>
             </section>
