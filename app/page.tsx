@@ -31,7 +31,7 @@ export default function Home() {
             {/* How It Works */}
             <section className="py-20 px-6 bg-white">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-3xl font-bold text-slate-900">How It Works</h2>
+                    <h2 className="text-3xl font-extrabold text-slate-900 uppercase tracking-wide after:content-[''] after:block after:w-16 after:h-1 after:bg-accent after:rounded-full after:mx-auto after:mt-3">How It Works</h2>
                     <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-10">
                         <div className="flex flex-col items-center">
                             <div className="relative">
@@ -70,7 +70,7 @@ export default function Home() {
             {/* Pricing */}
             <section className="py-20 px-6 bg-accent-light">
                 <div className="max-w-2xl mx-auto text-center">
-                    <h2 className="text-3xl font-bold text-slate-900">Pricing</h2>
+                    <h2 className="text-3xl font-extrabold text-slate-900 uppercase tracking-wide after:content-[''] after:block after:w-16 after:h-1 after:bg-accent after:rounded-full after:mx-auto after:mt-3">Pricing</h2>
                     <div className="mt-10 bg-white rounded-2xl shadow-sm border border-accent-border p-10 flex flex-col items-center">
                         <div className="w-36 h-36 rounded-full bg-accent ring-4 ring-accent/20 flex flex-col items-center justify-center">
                             <span className="text-5xl font-bold text-white">$10</span>
@@ -88,7 +88,7 @@ export default function Home() {
             {/* About */}
             <section className="py-20 px-6 bg-white">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-3xl font-bold text-slate-900">About</h2>
+                    <h2 className="text-3xl font-extrabold text-slate-900 uppercase tracking-wide after:content-[''] after:block after:w-16 after:h-1 after:bg-accent after:rounded-full after:mx-auto after:mt-3">About</h2>
                     <p className="mt-6 text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto"> <span className="font-bold">Smelly bins?</span> Let a local kid entrepreneur do the dirty work! At Sparkle Bins, I blast away the grime and odor so you don't have to. Enjoy a cleaner, fresher home, one bin at a time.</p>
                     <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <Image src="/keiran1.jpg" alt="Keiran cleaning a trash bin" width={500} height={400} className="rounded-xl object-cover w-full h-72 sm:h-80" />
@@ -100,7 +100,7 @@ export default function Home() {
             {/* Contact / Book Now Placeholder */}
             <section id="book" className="py-20 px-6 bg-accent-light">
                 <div className="max-w-2xl mx-auto text-center">
-                    <h2 className="text-3xl font-bold text-slate-900">Book Now</h2>
+                    <h2 className="text-3xl font-extrabold text-slate-900 uppercase tracking-wide after:content-[''] after:block after:w-16 after:h-1 after:bg-accent after:rounded-full after:mx-auto after:mt-3">Book Now</h2>
                     <p className="mt-6 text-lg text-slate-600">Text us your address and preferred Saturday, and we'll take care of the rest!</p>
                     <div className="mt-8 bg-white rounded-2xl shadow-sm border border-accent-border p-8">
                         <p className="text-slate-700 font-medium">Call or text me to book:</p>
