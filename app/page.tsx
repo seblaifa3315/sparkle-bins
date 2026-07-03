@@ -68,34 +68,55 @@ export default function Home() {
             </section>
 
             {/* Pricing */}
-            <section className="py-20 px-6 bg-slate-800">
+            <section className="py-20 px-6 bg-accent-light">
                 <div className="max-w-2xl mx-auto text-center">
-                    <h2 className="text-3xl font-extrabold text-white uppercase tracking-wide after:content-[''] after:block after:w-16 after:h-1 after:bg-accent after:rounded-full after:mx-auto after:mt-3">Pricing</h2>
-                    <div className="mt-10 flex flex-col items-center">
-                        <div className="w-40 h-40 rounded-full bg-accent ring-4 ring-accent/30 flex flex-col items-center justify-center shadow-lg shadow-accent/20">
-                            <span className="text-6xl font-extrabold text-white">$10</span>
-                            <span className="text-sm font-semibold text-white/90 uppercase tracking-wider">per bin</span>
+                    <h2 className="text-3xl font-extrabold text-slate-900 uppercase tracking-wide after:content-[''] after:block after:w-16 after:h-1 after:bg-accent after:rounded-full after:mx-auto after:mt-3">Pricing</h2>
+                    <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        {/* Before */}
+                        <div className="bg-white rounded-2xl shadow-sm border border-red-200 p-8 flex flex-col items-center">
+                            <div className="text-4xl mb-3">🤢</div>
+                            <h3 className="text-xl font-bold text-slate-800">Before</h3>
+                            <p className="mt-2 text-slate-500">Smelly, grimy bins sitting in your driveway.</p>
+                            <ul className="mt-4 space-y-2 text-left text-slate-500 text-sm">
+                                <li className="flex items-center gap-2">
+                                    <span className="text-red-400">✕</span> Foul odors
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <span className="text-red-400">✕</span> Sticky residue
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <span className="text-red-400">✕</span> Attracts pests
+                                </li>
+                            </ul>
                         </div>
-                        <p className="mt-6 text-xl font-bold text-white">Wash Away Grime & Odor!</p>
-                        <ul className="mt-8 space-y-4 text-left">
-                            <li className="flex items-center gap-3">
-                                <svg className="w-6 h-6 text-accent flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
-                                <span className="text-slate-300 text-lg">Full interior & exterior wash</span>
-                            </li>
-                            <li className="flex items-center gap-3">
-                                <svg className="w-6 h-6 text-accent flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
-                                <span className="text-slate-300 text-lg">Eco-friendly cleaning products</span>
-                            </li>
-                            <li className="flex items-center gap-3">
-                                <svg className="w-6 h-6 text-accent flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
-                                <span className="text-slate-300 text-lg">Same-day pickup & return</span>
-                            </li>
-                            <li className="flex items-center gap-3">
-                                <svg className="w-6 h-6 text-accent flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
-                                <span className="text-slate-300 text-lg">No hidden fees, no contracts</span>
-                            </li>
-                        </ul>
-                        <a href="#book" className="mt-10 inline-block bg-accent text-white font-semibold px-8 py-3 rounded-full text-lg hover:bg-accent-hover transition-colors shadow-lg">
+                        {/* After */}
+                        <div className="bg-white rounded-2xl shadow-sm border border-accent-border p-8 flex flex-col items-center">
+                            <div className="text-4xl mb-3">✨</div>
+                            <h3 className="text-xl font-bold text-slate-800">After</h3>
+                            <p className="mt-2 text-slate-500">Fresh, spotless bins you can be proud of.</p>
+                            <ul className="mt-4 space-y-2 text-left text-slate-500 text-sm">
+                                <li className="flex items-center gap-2">
+                                    <span className="text-accent">✓</span> Fresh & clean
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <span className="text-accent">✓</span> Fully sanitized
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <span className="text-accent">✓</span> Pest-free
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    {/* Price bridge */}
+                    <div className="mt-10 flex flex-col items-center">
+                        <p className="text-slate-500 text-lg">All this for just</p>
+                        <div className="mt-3 w-36 h-36 rounded-full bg-accent ring-4 ring-accent/20 flex flex-col items-center justify-center">
+                            <span className="text-5xl font-bold text-white">$10</span>
+                            <span className="text-sm text-white/90">per bin</span>
+                        </div>
+                        <p className="mt-4 text-lg font-semibold text-slate-700">Wash Away Grime & Odor!</p>
+                        <p className="mt-2 text-slate-500">Simple, honest pricing. No hidden fees, no contracts.</p>
+                        <a href="#book" className="mt-6 inline-block bg-accent text-white font-semibold px-8 py-3 rounded-full text-lg hover:bg-accent-hover transition-colors">
                             Book Now
                         </a>
                     </div>
