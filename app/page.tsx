@@ -70,14 +70,6 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* Video divider */}
-            <section className="relative h-72 sm:h-96 overflow-hidden">
-                <video autoPlay muted loop playsInline className="w-full h-full object-cover">
-                    <source src="/about.MOV" type="video/quicktime" />
-                </video>
-                <div className="absolute inset-0 bg-accent/30" />
-            </section>
-
             {/* Pricing */}
             <section className="py-20 px-6 bg-accent-light">
                 <div className="max-w-2xl mx-auto text-center">
@@ -130,6 +122,58 @@ export default function Home() {
                         <a href="#book" className="mt-6 inline-block bg-accent text-white font-semibold px-8 py-3 rounded-full text-lg hover:bg-accent-hover transition-colors">
                             Book Now
                         </a>
+                    </div>
+                </div>
+            </section>
+
+            {/* Video divider */}
+            <section className="relative h-72 sm:h-96 overflow-hidden">
+                <video autoPlay muted loop playsInline className="w-full h-full object-cover">
+                    <source src="/about.MOV" type="video/quicktime" />
+                </video>
+                <div className="absolute inset-0 bg-accent/30" />
+            </section>
+
+            {/* FAQ */}
+            <section className="py-20 px-6 bg-white">
+                <div className="max-w-2xl mx-auto">
+                    <h2 className="text-3xl font-extrabold text-slate-900 uppercase tracking-wide text-center after:content-[''] after:block after:w-16 after:h-1 after:bg-accent after:rounded-full after:mx-auto after:mt-3">FAQ</h2>
+                    <div className="mt-10 space-y-4">
+                        <details className="group bg-accent-light rounded-xl p-5 cursor-pointer">
+                            <summary className="flex items-center justify-between font-bold text-slate-800 text-lg list-none">
+                                What day do you clean?
+                                <span className="text-accent transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+                            </summary>
+                            <p className="mt-3 text-slate-600">Every Saturday, after Republic Services empties your bins. I pick them up, clean them, and bring them back the same day.</p>
+                        </details>
+                        <details className="group bg-accent-light rounded-xl p-5 cursor-pointer">
+                            <summary className="flex items-center justify-between font-bold text-slate-800 text-lg list-none">
+                                Do I need to be home?
+                                <span className="text-accent transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+                            </summary>
+                            <p className="mt-3 text-slate-600">Nope! Just leave your bins out after they&apos;ve been emptied, and I&apos;ll take care of the rest. You&apos;ll come back to fresh, clean bins.</p>
+                        </details>
+                        <details className="group bg-accent-light rounded-xl p-5 cursor-pointer">
+                            <summary className="flex items-center justify-between font-bold text-slate-800 text-lg list-none">
+                                What products do you use?
+                                <span className="text-accent transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+                            </summary>
+                            <p className="mt-3 text-slate-600">I use eco-friendly cleaning products that are tough on grime and odor but safe for your family and pets.</p>
+                        </details>
+                        <details className="group bg-accent-light rounded-xl p-5 cursor-pointer">
+                            <summary className="flex items-center justify-between font-bold text-slate-800 text-lg list-none">
+                                How do I pay?
+                                <span className="text-accent transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+                            </summary>
+                            <p className="mt-3 text-slate-600">Payment is collected when I return your clean bins. I accept cash, Venmo, and Zelle — whatever is easiest for you.</p>
+                        </details>
+                        <details className="group bg-accent-light rounded-xl p-5 cursor-pointer">
+                            <summary className="flex items-center justify-between font-bold text-slate-800 text-lg list-none">
+                                Do you serve my neighborhood?
+                                <span className="text-accent transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+                            </summary>
+                            <p className="mt-3 text-slate-600">I currently serve the Skyline Ridge community. If you&apos;re a neighbor, just text me and I&apos;ll get you on the schedule!</p>
+                        </details>
                     </div>
                 </div>
             </section>
