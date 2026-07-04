@@ -84,12 +84,12 @@ export default function Home() {
                                 <li className="flex items-center gap-2">
                                     <span className="text-red-400">✕</span> Foul odors
                                 </li>
-                                <li className="flex items-center gap-2">
+                                {/* <li className="flex items-center gap-2">
                                     <span className="text-red-400">✕</span> Sticky residue
                                 </li>
                                 <li className="flex items-center gap-2">
                                     <span className="text-red-400">✕</span> Attracts pests
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         {/* After */}
@@ -101,12 +101,12 @@ export default function Home() {
                                 <li className="flex items-center gap-2">
                                     <span className="text-accent">✓</span> Fresh & clean
                                 </li>
-                                <li className="flex items-center gap-2">
+                                {/* <li className="flex items-center gap-2">
                                     <span className="text-accent">✓</span> Fully sanitized
                                 </li>
                                 <li className="flex items-center gap-2">
                                     <span className="text-accent">✓</span> Pest-free
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
@@ -127,11 +127,11 @@ export default function Home() {
             </section>
 
             {/* Video divider */}
-            <section className="relative h-72 sm:h-96 overflow-hidden">
+            <section className="relative h-[28rem] sm:h-[38rem] overflow-hidden">
                 <video autoPlay muted loop playsInline className="w-full h-full object-cover">
-                    <source src="/about.MOV" type="video/quicktime" />
+                    <source src="/video.mp4" type="video/mp4" />
                 </video>
-                <div className="absolute inset-0 bg-accent/30" />
+                <div className="absolute inset-0 bg-black/40" />
             </section>
 
             {/* FAQ */}
@@ -185,7 +185,7 @@ export default function Home() {
                     <h2 className="text-3xl font-extrabold text-white uppercase tracking-wide after:content-[''] after:block after:w-16 after:h-1 after:bg-accent after:rounded-full after:mx-auto after:mt-3">About</h2>
                     <h3 className="mt-8 text-2xl font-bold text-white">Meet Keiran</h3>
                     <p className="mt-4 text-lg text-white/90 leading-relaxed">Hi, I&apos;m Keiran — a kid entrepreneur right here in <span className="font-bold">Skyline Ridge</span>. I started Sparkle Bins to help my neighbors keep their trash bins fresh and clean. Every Saturday, I pick up your bins, scrub away the grime and odor, and bring them back spotless. No more stinky bins sitting in your driveway!</p>
-                    <Image src="/keiran2.jpg" alt="Keiran cleaning a trash bin" width={500} height={300} className="mt-10 rounded-xl object-cover w-full h-56 sm:h-64 shadow-lg mx-auto max-w-md" />
+                    <Image src="/keiran.jpg" alt="Keiran cleaning a trash bin" width={500} height={300} className="mt-10 rounded-xl object-cover w-full h-56 sm:h-64 shadow-lg mx-auto max-w-md" />
                 </div>
             </section>
 
@@ -197,7 +197,7 @@ export default function Home() {
                     <div className="mt-16 bg-white rounded-2xl shadow-lg border border-accent-border p-8 sm:p-10">
                         {/* Avatar */}
                         <div className="w-20 h-20 rounded-full overflow-hidden ring-4 ring-accent/20 shadow-md mx-auto -mt-20">
-                            <Image src="/avatar.jpg" alt="Keiran" width={100} height={100} className="object-cover w-full h-full" />
+                            <Image src="/avatarBook.jpg" alt="Keiran" width={100} height={100} className="object-cover w-full h-full" />
                         </div>
                         {/* Personal message */}
                         <p className="mt-5 text-lg text-slate-700 leading-relaxed">Ready for clean bins? Just text me your <span className="font-bold">address</span> and your <span className="font-bold">preferred Saturday</span> — I&apos;ll get you on the schedule!</p>
