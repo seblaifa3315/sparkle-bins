@@ -179,7 +179,7 @@ export default function Home() {
             </section>
 
             {/* About */}
-            <section className="relative py-32 px-6 bg-cover bg-center" style={{backgroundImage: "url('/keiran1.jpg')"}}>
+            <section className="relative py-32 px-6 bg-cover bg-[position:30%_center] sm:bg-center" style={{backgroundImage: "url('/keiran1.jpg')"}}>
                 <div className="absolute inset-0 bg-slate-900/70" />
                 <div className="relative max-w-3xl mx-auto text-center">
                     <h2 className="text-3xl font-extrabold text-white uppercase tracking-wide after:content-[''] after:block after:w-16 after:h-1 after:bg-accent after:rounded-full after:mx-auto after:mt-3">About</h2>
